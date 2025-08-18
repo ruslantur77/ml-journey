@@ -13,7 +13,7 @@
 | **7** | FastAPI + Docker | Собран микро-сервис: FastAPI (/predict, /health) + Docker-контейнер; API отдаёт JSON-прогноз по http://localhost:8000/predict?days=30. |
 | 8–9 | PyTorch MNIST + Regularization | Обучена полносвязная сеть на MNIST с dropout (0.3), L2 (weight-decay 1e-4) и L1 (1e-5); достигнута точность 97.45 %, раннее прекращение и логи TensorBoard сохранены.|
 | 10 | TensorFlow CNN Cifar10 | Обучена модель на датасете CIFAR-10 (60k изображений 32x32 пикселей, 10 классов). Метрики на тестовых данных: accuracy: 0.7296 - loss: 0.7868, на валидационных: val_accuracy: 0.7230 - val_loss: 0.8046|
-
+| 11 | TensorFlow Custom logs | Расширенные логи модели 10 дня. В ноутбуке лежит код запуска просмотра логов в TensorBoard|
 
 ## 📂 Структура
 week1-day1-2/ # ноутбук + графики
@@ -29,3 +29,5 @@ week1-day6-7/   # PostgreSQL + Prophet + FastAPI
 week2-day8-9/   #PyTorch Mnist dataset
 
 week2-day10/   #TensorFlow CNN Cifar10
+
+week2-day11/   #TensorFlow Сustom los
